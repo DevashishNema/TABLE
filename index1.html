@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form & input tags </title>
+</head>
+<body>
+    <!-- to create form -->
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+        </div>
+        <input type="text" id="name"/> <br> <br>
+        <div>
+            <label for="email">Email</label>
+        </div>
+        <input type="email" id="email" name="email"> <br>
+        <br>
+        
+        
+        <div>
+            <label for="my date">select date</label>
+            <input type="date" id="my date" name="my date">
+        </div> <br>
+        <div>
+            <label for="age"> Enter Age</label>
+            <input type="number" id="age" name="age">
+        </div> <br>
+        <br>
+
+        <div>
+            <label for="eligibility">Are you eligible?</label>
+            <input type="checkbox" name="eligibility" id="eligibility">
+            <br>
+            <br>
+
+        </div>
+        <!-- checkbox -->
+        <div>
+            <label for="hobby">Hobbies :</label>
+            <input type="checkbox"name="hobby"id="hobby"> Dancing
+            <input type="checkbox"name="hobby"id="hobby"> singing
+            <input type="checkbox"name="hobby"id="hobby"> sports
+
+            
+        </div>
+        
+    <br>
+    <!-- radio  button -->
+<div>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" value="male">Male
+    <input type="radio" name="gender" id="gender" value="female">female
+    <input type="radio" name="gender" id="gender" value="other"> Others
+
+
+    <div><br>
+        <label for="message">Message</label>
+        <textarea id="message"  cols="32" rows="10"></textarea>
+    </div>
+</div>
+<br>
+<div>
+    <label for="car">Select Car Brand</label>
+    <select id="car">
+        <option value="tesla">tesla</option>
+        <option value="mahindra"> mahindra</option>
+        <option value="tata">tata</option>
+    </select>
+        
+</div>
+<!-- <input type="submit" value="submit-now"> -->
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+<div>
+   
+
+</div>
+        
+
+
+    </form>
+</body>
+</html>
